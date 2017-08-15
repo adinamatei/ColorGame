@@ -1,11 +1,11 @@
 # Color Game
 
- For this project I used my Webpack Boilerplate and represinte a simple Color Game Guessing made with JavaScript.
+ For this project I used my [Webpack Boilerplate](https://github.com/adinamatei/webpackBoilerplate). I hope you'll like this simple Color Guessing Game in JavaScript.
 
- * How to play
-- Find the square with the RGB color described above and click on it
-- If you guess, the color of all squares it changes in guessed color; otherwise, the clicked square it disappear
-- With the New Colors button you can reset the colors
-- With **Easy** and **Hard** buttons you can choose the mode how to play; on easy mode you play with 3 squares and on hard mode (the default mode) you play with 6 squares
+## How to play
+- Click the square that matches the RGB color described in the header
+- If you guess, all squares will change their color to the guessed color; otherwise, the clicked square will disappear
+- Start a new game by clicking the New Colors button
+- Set difficulty to **Easy**, and play with 3 squares, or **Hard**, to play with 6 squares
 
 Have fun!

@@ -1,4 +1,4 @@
-//jshint esversion:6
+
 var numSquares = 6;
 var colors = [];
 var pickedColor;
@@ -41,7 +41,7 @@ function setupModeButtons(){
 function setupSquares () {
   for (var i = 0; i < squares.length; i++) {
     //add event listener to squares
-    squares[i].addEventListener("click", function () {
+    squares[i].addEventListener("click", function handler() {
       //take color of clicked square
       var clickedSquare = this.style.backgroundColor;
 

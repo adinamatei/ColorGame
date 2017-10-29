@@ -8,6 +8,7 @@
 - Start a new game by clicking the New Colors button
 - Set difficulty to **Easy**, and play with 3 squares, or **Hard**, to play with 6 squares
 
-[https://adinamatei.github.io/ColorGame/](https://adinamatei.github.io/ColorGame/)
+## Demo
+ [https://adinamatei.github.io/ColorGame/](https://adinamatei.github.io/ColorGame/)
 
 Have fun!

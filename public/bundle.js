@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/public/";
+/******/ 	__webpack_require__.p = "./public/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
@@ -87,7 +87,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 "use strict";
 
 
-//jshint esversion:6
 var numSquares = 6;
 var colors = [];
 var pickedColor;
@@ -128,7 +127,7 @@ function setupModeButtons() {
 function setupSquares() {
   for (var i = 0; i < squares.length; i++) {
     //add event listener to squares
-    squares[i].addEventListener("click", function () {
+    squares[i].addEventListener("click", function handler() {
       //take color of clicked square
       var clickedSquare = this.style.backgroundColor;
 

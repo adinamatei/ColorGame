@@ -1,4 +1,4 @@
-//jshint esversion:6
+
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -10,11 +10,11 @@ module.exports = {
   // devtool: 'source-map',
   output: {
       path: path.resolve(__dirname, 'public'),
-      publicPath: '/public/',
+      publicPath: './public/',
       filename: "bundle.js"
   },
   devServer: {
-      contentBase: path.join(__dirname, 'public'),
+      contentBase: path.join(__dirname, '/'),
       port: 8081
   },
   module: {
@@ -48,7 +48,7 @@ module.exports = {
     new HtmlWebpackPlugin({
     title: 'Home Page',
     hash: true,
-    filename: 'index.html',
+    filename: '../index.html',
     template: './src/index.html',
   }),
     new ExtractTextPlugin("style.css")
